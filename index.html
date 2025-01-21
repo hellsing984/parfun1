@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vente de Parfum</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" flex items-center justify-center h-screen bg-gradient-to-b from-cyan-300 via-slate-50 to-green-300
+">
+ <!-- image arriere plan -->
+  <!-- Contexte modal -->
+  <div class="bg-[url('/img/hero-pattern.svg')]">
+    <!-- ... -->
+  </div>
+     <div class="modal bg-neutral-200 w-[90%] max-w-2xl mx-auto rounded-lg shadow-lg ">
+    <!-- carte -->
+    <div class="flex flex-col md:flex-row gap-4">
+      <!-- Image Section -->
+      <div class="w-full md:w-1/2 h-64 md:h-auto">
+        <img
+          src="./image/boss.jpeg"
+          alt="Gabrielle Essence Eau De Parfum"
+          class="w-full h-full object-cover rounded-tl"
+        />
+      </div>
+
+      <!-- Content Section -->
+       <div class="w-full md:w-1/2 flex flex-col justify-between">
+        <!-- Product Info -->
+        <div>
+          <p class="text-sm text-gray-500 uppercase">Perfume</p>
+          <h2 class="text-2xl font-bold text-gray-900 leading-tight">
+            Hugo Boss Bottled Parfum EDT
+          </h2>
+          <p class="text-sm text-gray-600 mt-2">
+            Être son propre BOSS, c’est vivre comme on l'entend. 
+            C'est être un homme qui fait confiance à son instinct.
+          </p>
+        </div>
+
+        <!-- Price and Button -->
+        <div class="mt-4">
+          <p class="text-3xl font-bold text-green-600">$150.99</p>
+          <p class="text-sm text-gray-400 line-through">$190.99</p>
+          <!--bouton de panier-->
+          <button
+            id="addToCartBtn"
+            class="mt-4 w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 rounded-lg shadow-md">
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

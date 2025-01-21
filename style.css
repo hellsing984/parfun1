@@ -1,0 +1,21 @@
+/* Corps de la page */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style du modal */
+  .modal {
+    background-color: #f5f5f5; /* Couleur de fond neutre */
+    width: 90%;
+    border-radius: 0.5rem; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(17, 1, 1, 0.1); /* Ombre */
+  }
+  
+  /* Bouton */
+  button {
+    transition: background-color 0.3s ease; /* Animation fluide pour hover */
+  }
+  
